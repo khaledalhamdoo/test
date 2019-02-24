@@ -3,10 +3,15 @@
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 body {
   padding-top: 54px;
-  margin:0;font-family: 'Tajawal', sans-serif;
+  margin:0;
+  font-family: 'Tajawal', sans-serif;
   text-align: center;
 
 }
+.bg6 {
+   background-image: url(../img/bg.jpg)   ;
+ filter: alpha(opacity=50);
+ }
 p  {
     text-align: center;
     padding: 10px;
@@ -43,10 +48,7 @@ p  {
 */       
 .bgf {
    background-color:#ffffff;   
-}
-.bg1 {  
-background-color:
-}
+} 
 /*------تجاوب فديوهات  يوتيوب------*/
 .video-container {
  position: relative;
@@ -71,8 +73,7 @@ background-color:
         max-width: 100%;}
 /*-----قيد التطوير------*/
 .display-nav {
-  	display: inline-block;
-  	float: left;
+   	float: left;
 }
 body {
    text-align: center;
@@ -188,7 +189,7 @@ footer{
 .imgh  {
    opacity:0.3;
    background-repeat: no-repeat;
-   max-width: 100%; 
+  /*  max-width: 100%;  */
    height: 200px;
    background: url("assets/img/b.png")no-repeat center center; 
    background-size: cover;
