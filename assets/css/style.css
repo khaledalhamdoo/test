@@ -10,8 +10,7 @@ body {
 }
 .bg6 {
    background-image: url(../img/bg.jpg)   ;
- filter: alpha(opacity=50);
- }
+  }
 p  {
     text-align: center;
     padding: 10px;
