@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800,200);
+﻿@import url(https://fonts.googleapis.com/css?family=Raleway:400,800,200);
 @import url(bootstrap.min.css );
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 body {
@@ -204,3 +204,16 @@ footer {
    margin: 100px auto 50px auto;
    border-radius: 20px;
 }
+.clip-1 {
+ 	background-size: cover;
+  background-position: -100px 0;    
+  background-repeat: no-repeat;
+   -webkit-clip-path: ellipse(90% 70% at 0% 50%);
+    clip-path: ellipse(90% 70% at 50% 20%);
+     -webkit-shape-outside: ellipse(90% 70% at 50% 20%);
+      shape-outside: ellipse(90% 70% at 50% 70%);
+      -webkit-shape-margin: 2em;
+      
+       shape-margin: 2em;
+       
+       }
