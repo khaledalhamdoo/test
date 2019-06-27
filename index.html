@@ -12,14 +12,14 @@
 		<title>الدليل الطبي</title>
 	</head>
 		<body style="direction: rtl">
-			
+		
 <script>
 	window.fbAsyncInit = function() {
 	  FB.init({
-		appId      : '{your-app-id}',
+		appId      : '{3006516592755041}',
 		cookie     : true,
 		xfbml      : true,
-		version    : '{api-version}'
+		version    : '{1}'
 	  });
 		
 	  FB.AppEvents.logPageView();   
@@ -33,6 +33,7 @@
 	   js.src = "https://connect.facebook.net/en_US/sdk.js";
 	   fjs.parentNode.insertBefore(js, fjs);
 	 }(document, 'script', 'facebook-jssdk'));
+	 FB.AppEvents.logPageView();
   </script>
 		<!-- nav bar -->
 		<nav class="shadow navbar  navbar-expand-lg navbar-light  bgf fixed-top">
@@ -65,6 +66,9 @@
  
 		</nav> <!-- تاثيرات جانيبة -->
 		<header class="masthead imgh" style="background-image: url('assets/img/b.png')"></header>
+		<button onclick='FB.AppEvents.logEvent("buttonClicked")'>
+		  Click me
+		</button>
 		<div class="overlay "></div>
 		<div class="container">
 			<div class="row">
