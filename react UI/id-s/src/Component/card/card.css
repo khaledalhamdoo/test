@@ -1,0 +1,40 @@
+.card{width: 18rem; 
+    position: relative; 
+    display: inline-flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card:hover {
+     box-shadow: 1px 1px 5px -2px #50a291; 
+}
+.bor {
+    border-radius: 0 0 20px 20px;
+    margin: 10px;
+}
+.clip-1 {
+    background-size: cover;
+    background-position: -100px 0;
+    background-repeat: no-repeat;
+    -webkit-clip-path: ellipse(90% 70% at 0% 50%);
+    clip-path: ellipse(90% 70% at 50% 20%);
+    -webkit-shape-outside: ellipse(90% 70% at 50% 20%);
+    shape-outside: ellipse(90% 70% at 50% 70%);
+    -webkit-shape-margin: 2em;
+    shape-margin: 2em;
+}
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
