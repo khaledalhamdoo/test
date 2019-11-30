@@ -15,6 +15,7 @@ body {
   text-align: center;
 
 }
+h1{font-size: 30px;}
 .bg6 {
    background-image: url(../img/bg.jpg)   ;
   }
@@ -26,6 +27,7 @@ p  {
     margin-left: 0px;
     margin-bottom: 0px;
 }
+.body-c{width: 100%;}
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
@@ -33,21 +35,27 @@ p  {
   .bgimg{
     height:60px;
     }
-}
+    .body-c{width: 500px;}
+
   section {
    	margin: 30px 0 0 0;
 }
-
+}
 @media (max-width: 992px) {
   .bgimg {
     height:60px;
-    }
+}
+
 }
 @media (max-width: 550px) {
   .bgimg {
     height:60px;
     }
+.body-c{width: 100%;}
+  
 }
+
+
 /*********************************************************************
 |                  تصميم وبرمجة قتيبة                                       |
 |                مشروع دليل المراكز الطبية                                     |
